@@ -35,11 +35,13 @@ namespace LecturesApp.Models
         [Display(Name = "Дата начала")]
         [Required(ErrorMessage = "Поле \"Дата начала\" должно быть заполнено")]
         [DateGreaterThanToday(ErrorMessage = "Дата начала должна быть позднее текущей")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy H:mm}")]
         public DateTime StartDate { get; set; }
 
         [Display(Name = "Дата окончания")]
         [Required(ErrorMessage = "Поле \"Дата окончания\" должно быть заполнено")]
         [DateGreaterThan("StartDate", ErrorMessage = "Дата окончания должна быть позднее даты начала")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy H:mm}")]
         public DateTime EndDate { get; set; }
 
         [Display(Name = "Состояние")]
