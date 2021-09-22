@@ -23,7 +23,7 @@ One-to-many between **Lecture** and **User** as **Host**.
 Many-to-many between **Lecture** and **User** as **Member**.
 In other words, **Lecture** has one **Host** and many **Members**.
 
-![Diagram](https://imgur.com/nP4U5dy)
+![Diagram](https://i.imgur.com/nP4U5dy.jpeg)
 
 *At this time there are no roles. Users can both create lectures and register on them.*
 
