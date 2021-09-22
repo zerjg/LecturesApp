@@ -1,5 +1,7 @@
 # LecturesApp
 
+Link: https://lecturesapp20210922200448.azurewebsites.net/
+
 ### What Is It About
 
 The application allows ones to create Lectures and others to register on Lectures to visit them.
